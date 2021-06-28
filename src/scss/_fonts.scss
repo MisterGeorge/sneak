@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Questrial-Regular';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Questrial-Regular.ttf');
+    src: local('Questrial-Regular'),
+        url('../fonts/Questrial-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Montserrat-Bold.ttf');
+    src: local('Montserrat-Bold'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Montserrat-Regular.ttf');
+    src: local('Montserrat-Regular'),
+        url('../fonts/Montserrat-regular.ttf') format('truetype')
+}
+
+$questrial-regular: 'Questrial-Regular', sans-serif;
+$monserrat-bold   : 'Montserrat-Bold', sans-serif;
+$monserrat-regular: 'Montserrat-Bold', sans-serif;

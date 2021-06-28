@@ -1,0 +1,43 @@
+{
+  "name": "sneak",
+  "version": "1.0.0",
+  "description": "Sneak Creative Portfolio es un repositorio para la prueba de FrontEnd Semi Senior en Tita Media",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "frontend",
+    "semi",
+    "senior",
+    "tita",
+    "media",
+    "agencia",
+    "test"
+  ],
+  "author": "jarmandopacheco@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/register": "^7.14.5",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.27.3",
+    "del": "^6.0.0",
+    "file-exists": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-image": "^6.2.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "~1.32.12"
+  }
+}

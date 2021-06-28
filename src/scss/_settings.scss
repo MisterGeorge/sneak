@@ -1,0 +1,42 @@
+// Set colors here
+$white      : #ffffff !default;
+$gray-100   : #f8f9fa !default;
+$gray-200   : #e9ecef !default;
+$gray-300   : #dee2e6 !default;
+$gray-400   : #ced4da !default;
+$gray-500   : #adb5bd !default;
+$gray-600   : #6c757d !default;
+$gray-700   : #495057 !default;
+$gray-800   : #343a40 !default;
+$gray-900   : #212529 !default;
+$black      : #000000 !default;
+$bg-primary : #fc758c !default;
+$bg-gray    : #f6f6f6 !default;
+
+.bg-primary {
+    background-color: $bg-primary!important;
+}
+
+.bg-white {
+    background-color: $white!important;
+}
+
+.self-middle {
+    align-self: center!important;
+}
+
+.content-center {
+    justify-content: center !important;
+}
+
+.text-primary {
+    color: $bg-primary!important;
+}
+
+.text-white {
+    color: $white!important;
+}
+
+.clearfix {
+    @include clearfix();
+}
